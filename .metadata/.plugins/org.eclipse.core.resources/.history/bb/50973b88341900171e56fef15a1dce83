@@ -1,0 +1,11 @@
+package domain;
+
+public class ShuffleParametrized implements StrategyShufflePuzzle{
+
+	@Override
+	public void shuffle(Puzzle game) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

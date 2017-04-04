@@ -1,0 +1,43 @@
+package domain;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import domain.Puzzle.Direction;
+
+public class TestPuzzleGame {
+	
+	PuzzleGame puzzle;
+	StrategyShufflePuzzle shuffle;
+	
+	@Before
+	public void setUp(){
+		shuffle = new ShuffleWithoutAction();
+		puzzle = new PuzzleGame(3, shuffle);
+	}
+	
+	@Test
+	public void testMoveEmptyCellNullDirection() throws Exception{
+		
+		Assert.assertFalse(puzzle.moveEmptyCell(null));
+		
+	}
+	
+	@Test
+	public void testMoveEmptyCellUpTrue() throws Exception{
+				
+		Assert.assertTrue(puzzle.moveEmptyCell(Direction.UP));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellLeftTrue() throws Exception{
+				
+		Assert.assertTrue(puzzle.moveEmptyCell(Direction.LEFT));
+	
+	}
+	
+	
+
+}

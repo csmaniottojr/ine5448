@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TesteComHamcrest" project="Aula3TestesHamcrest" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="TesteComHamcrest" time="0.001">
+    <testcase name="testAllOf" classname="TesteComHamcrest" time="0.0"/>
+    <testcase name="testAnyOf" classname="TesteComHamcrest" time="0.0"/>
+    <testcase name="testArray" classname="TesteComHamcrest" time="0.0"/>
+    <testcase name="testText" classname="TesteComHamcrest" time="0.0"/>
+    <testcase name="testAllString" classname="TesteComHamcrest" time="0.0"/>
+    <testcase name="testNumber" classname="TesteComHamcrest" time="0.0"/>
+    <testcase name="testObject" classname="TesteComHamcrest" time="0.0"/>
+  </testsuite>
+</testrun>

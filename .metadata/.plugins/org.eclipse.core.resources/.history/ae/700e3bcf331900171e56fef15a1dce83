@@ -1,0 +1,117 @@
+package domain;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import domain.Puzzle.Direction;
+
+public class TestPuzzleGame {
+	
+	PuzzleGame puzzle;
+	StrategyShufflePuzzle shuffle;
+	
+	@Before
+	public void setUp(){
+		shuffle = new ShufflePuzzleLevelEasy();
+		puzzle = new PuzzleGame(3, shuffle);
+	}
+	
+	@Test
+	public void testMoveEmptyCellNullDirection() throws Exception{
+		
+		Assert.assertFalse(puzzle.moveEmptyCell(null));
+		
+	}
+	
+	@Test
+	public void testMoveEmptyCellUpFalse() throws Exception{
+		
+		while(!this.puzzle.getBoard().isInTheSuperiorBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertFalse(puzzle.moveEmptyCell(Direction.UP));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellUpTrue() throws Exception{
+		
+		while(this.puzzle.getBoard().isInTheSuperiorBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertTrue(puzzle.moveEmptyCell(Direction.UP));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellDownFalse() throws Exception{
+		
+		while(!this.puzzle.getBoard().isInTheBottomBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertFalse(puzzle.moveEmptyCell(Direction.DOWN));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellDownTrue() throws Exception{
+		
+		while(this.puzzle.getBoard().isInTheBottomBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertTrue(puzzle.moveEmptyCell(Direction.DOWN));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellLeftFalse() throws Exception{
+		
+		while(!this.puzzle.getBoard().isInTheLeftBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertFalse(puzzle.moveEmptyCell(Direction.LEFT));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellLeftTrue() throws Exception{
+		
+		while(this.puzzle.getBoard().isInTheLeftBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertTrue(puzzle.moveEmptyCell(Direction.LEFT));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellRightFalse() throws Exception{
+		
+		while(!this.puzzle.getBoard().isInTheLeftBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertFalse(puzzle.moveEmptyCell(Direction.RIGHT));
+	
+	}
+	
+	@Test
+	public void testMoveEmptyCellRightTrue() throws Exception{
+		
+		while(this.puzzle.getBoard().isInTheLeftBorder(this.puzzle.getEmptyCell())){
+			shuffle.shuffle(puzzle);
+		}
+		
+		Assert.assertTrue(puzzle.moveEmptyCell(Direction.RIGHT));
+	
+	}
+	
+	
+
+}
