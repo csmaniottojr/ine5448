@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TesteAgencia" project="Aula6SistemaBancarioTestesEstoria" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgencia" time="0.022">
+    <testcase name="testeAgencia" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgencia" time="0.022">
+      <failure>
+        <expected>Centro</expected>
+        <actual>São João Batista - SC</actual>org.junit.ComparisonFailure: expected:&lt;[Centro]&gt; but was:&lt;[São João Batista - SC]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at br.ufsc.ine.leb.sistemaBancario.testes.TesteAgencia.testeAgencia(TesteAgencia.java:30)
+
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

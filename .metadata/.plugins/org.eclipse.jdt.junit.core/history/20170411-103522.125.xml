@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TesteAgenciaOld" project="Aula6SistemaBancarioTestesEstoria" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.014">
+    <testcase name="criarAgenciaBBCentro" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.003"/>
+    <testcase name="criarBancoBB" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.001"/>
+    <testcase name="criarContaMariaBB" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.003"/>
+    <testcase name="depositoEmConta" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.003"/>
+    <testcase name="saqueComSaldoInsuficiente" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.002"/>
+    <testcase name="saqueEmContaComSaldoSuficiente" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteAgenciaOld" time="0.002"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPuzzleGame" project="EightPuzzleGame" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="domain.TestPuzzleGame" time="0.013">
+    <testcase name="testPutTilesInTheBoardErrorBeforeLine" classname="domain.TestPuzzleGame" time="0.004"/>
+    <testcase name="testMoveEmptyCellUpFalse" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testPutTilesInTheBoardErrorLastLine" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testMoveEmptyCellBottomTrue" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testMoveEmptyCellRightTrue" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testMoveEmptyCellRightFalse" classname="domain.TestPuzzleGame" time="0.0"/>
+    <testcase name="testMoveEmptyCellNullDirection" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testPutTilesInTheBoard" classname="domain.TestPuzzleGame" time="0.0"/>
+    <testcase name="testMoveEmptyCellLeftTrue" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testMoveEmptyCellBottomFalse" classname="domain.TestPuzzleGame" time="0.001"/>
+    <testcase name="testMoveEmptyCellLeftFalse" classname="domain.TestPuzzleGame" time="0.0"/>
+    <testcase name="testMoveEmptyCellUpTrue" classname="domain.TestPuzzleGame" time="0.002"/>
+  </testsuite>
+</testrun>

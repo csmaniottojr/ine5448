@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TesteConta" project="Aula6SistemaBancarioTestesEstoria" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.018">
+    <testcase name="depositoEmConta" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.009"/>
+    <testcase name="saqueComSaldoInsuficiente" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.003"/>
+    <testcase name="saqueEmContaComSaldoSuficiente" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.006">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	op cannot be resolved to a variable
+
+	at br.ufsc.ine.leb.sistemaBancario.testes.TesteConta.saqueEmContaComSaldoSuficiente(TesteConta.java:53)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

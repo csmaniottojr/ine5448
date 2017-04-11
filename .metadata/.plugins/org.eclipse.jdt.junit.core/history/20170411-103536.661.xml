@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TesteConta" project="Aula6SistemaBancarioTestesEstoria" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.016">
+    <testcase name="depositoEmConta" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.006"/>
+    <testcase name="saqueComSaldoInsuficiente" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.002"/>
+    <testcase name="saqueEmContaComSaldoSuficiente" classname="br.ufsc.ine.leb.sistemaBancario.testes.TesteConta" time="0.008">
+      <failure>java.lang.AssertionError: expected:&lt;SUCESSO&gt; but was:&lt;SALDO_INSUFICIENTE&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at br.ufsc.ine.leb.sistemaBancario.testes.TesteConta.saqueEmContaComSaldoSuficiente(TesteConta.java:54)
+
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

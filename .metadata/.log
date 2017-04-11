@@ -464,3 +464,13 @@ org.eclipse.ecf.filetransfer.IncomingFileTransferException: HttpComponents conne
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
 !SUBENTRY 3 org.eclipse.ecf.identity 4 0 2017-04-04 10:45:28.795
 !MESSAGE HttpComponents connection error response code 503.
+!SESSION 2017-04-04 14:08:21.475 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-04-04 14:08:35.608
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
