@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.junit.launchconfig">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/EightPuzzleGame/tests/domain/TestPuzzleGame.java"/>
+<listEntry value="/Aula5EightPuzzleGame/tests/domain/TestPuzzleGame.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
@@ -11,6 +11,6 @@
 <stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value="testMoveEmptyCellRightTrue"/>
 <stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="domain.TestPuzzleGame"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EightPuzzleGame"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Aula5EightPuzzleGame"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=""/>
 </launchConfiguration>
