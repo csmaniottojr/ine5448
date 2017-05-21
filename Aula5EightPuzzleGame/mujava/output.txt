@@ -1,0 +1,30 @@
+domain.TestPuzzleGame
+
+
+======================================== Generating Original Test Results ========================================
+{testMoveEmptyCellUpTrue=pass, testMoveEmptyCellLeftTrue=pass, testMoveEmptyCellBottomFalse=pass, testMoveEmptyCellRightTrue=pass, testMoveEmptyCellUpFalse=pass, testMoveEmptyCellNullDirection=pass, testMoveEmptyCellBottomTrue=pass, testMoveEmptyCellRightFalse=pass, testPutTilesInTheBoardErrorLastLine=pass, testPutTilesInTheBoardErrorBeforeLine=pass, testMoveEmptyCellLeftFalse=pass, testPutTilesInTheBoard=pass}
+
+
+======================================== Executing Mutants ========================================
+  IOD_2{testMoveEmptyCellUpTrue=pass, testMoveEmptyCellLeftTrue=pass, testMoveEmptyCellBottomFalse=pass, testMoveEmptyCellRightTrue=pass, testMoveEmptyCellUpFalse=pass, testMoveEmptyCellNullDirection=pass, testMoveEmptyCellBottomTrue=pass, testMoveEmptyCellRightFalse=pass, testPutTilesInTheBoardErrorLastLine=pass, testPutTilesInTheBoardErrorBeforeLine=pass, testMoveEmptyCellLeftFalse=pass, testPutTilesInTheBoard=pass}
+  IOD_1{testMoveEmptyCellUpTrue=pass, testMoveEmptyCellLeftTrue=pass, testMoveEmptyCellBottomFalse=pass, testMoveEmptyCellRightTrue=pass, testMoveEmptyCellUpFalse=pass, testMoveEmptyCellNullDirection=pass, testMoveEmptyCellBottomTrue=pass, testMoveEmptyCellRightFalse=pass, testPutTilesInTheBoardErrorLastLine=pass, testPutTilesInTheBoardErrorBeforeLine=pass, testMoveEmptyCellLeftFalse=pass, testPutTilesInTheBoard=pass}
+  JTD_1{testMoveEmptyCellUpTrue=pass, testMoveEmptyCellLeftTrue=pass, testMoveEmptyCellBottomFalse=pass, testMoveEmptyCellRightTrue=pass, testMoveEmptyCellUpFalse=pass, testMoveEmptyCellNullDirection=pass, testMoveEmptyCellBottomTrue=pass, testMoveEmptyCellRightFalse=pass, testPutTilesInTheBoardErrorLastLine=pass, testPutTilesInTheBoardErrorBeforeLine=pass, testMoveEmptyCellLeftFalse=pass, testPutTilesInTheBoard=pass}
+  JTI_1{testMoveEmptyCellUpTrue=pass, testMoveEmptyCellLeftTrue=pass, testMoveEmptyCellBottomFalse=pass, testMoveEmptyCellRightTrue=pass, testMoveEmptyCellUpFalse=pass, testMoveEmptyCellNullDirection=pass, testMoveEmptyCellBottomTrue=pass, testMoveEmptyCellRightFalse=pass, testPutTilesInTheBoardErrorLastLine=pass, testPutTilesInTheBoardErrorBeforeLine=pass, testMoveEmptyCellLeftFalse=pass, testPutTilesInTheBoard=pass}
+  JSI_1{testMoveEmptyCellUpTrue=testMoveEmptyCellUpTrue: 38; Expected non-static field domain.Cell.tile, testMoveEmptyCellLeftTrue=testMoveEmptyCellLeftTrue: 54; Expected non-static field domain.Cell.tile, testMoveEmptyCellBottomFalse=pass, testMoveEmptyCellRightTrue=testMoveEmptyCellRightTrue: 89; Expected non-static field domain.Cell.tile, testMoveEmptyCellUpFalse=testMoveEmptyCellUpFalse: 44; Expected non-static field domain.Cell.tile, testMoveEmptyCellNullDirection=pass, testMoveEmptyCellBottomTrue=testMoveEmptyCellBottomTrue: 75; Expected non-static field domain.Cell.tile, testMoveEmptyCellRightFalse=pass, testPutTilesInTheBoardErrorLastLine=pass, testPutTilesInTheBoardErrorBeforeLine=pass, testMoveEmptyCellLeftFalse=testMoveEmptyCellLeftFalse: 60; Expected non-static field domain.Cell.tile, testPutTilesInTheBoard=pass}
+test report: {testMoveEmptyCellUpTrue=JSI_1, testMoveEmptyCellLeftTrue=JSI_1, testMoveEmptyCellBottomFalse=, testMoveEmptyCellRightTrue=JSI_1, testMoveEmptyCellUpFalse=JSI_1, testMoveEmptyCellNullDirection=, testMoveEmptyCellBottomTrue=JSI_1, testMoveEmptyCellRightFalse=, testPutTilesInTheBoardErrorLastLine=, testPutTilesInTheBoardErrorBeforeLine=, testMoveEmptyCellLeftFalse=JSI_1, testPutTilesInTheBoard=}
+mutant report: {JTD_1=, IOD_2=, IOD_1=, JTI_1=, JSI_1=testMoveEmptyCellUpTrue, testMoveEmptyCellUpFalse, testMoveEmptyCellLeftTrue, testMoveEmptyCellLeftFalse, testMoveEmptyCellBottomTrue, testMoveEmptyCellRightTrue}
+MutantsViewerPanel.mList_mouseClicked - mutant_log != null
+MutantsViewerPanel.showMutant (with mutant_log)
+MutantsViewerPanel.getMutatedLineNum --- start_index =5 : end_index =8
+MutantsViewerPanel.getMutatedContent --- start_index =5 : end_index =8
+showMutant: myFile =/home/cesar/workspace_testes/Aula5EightPuzzleGame/mujava/result/domain.Cell/class_mutants/JSI_1/Cell.java
+MutantsViewerPanel.mList_mouseClicked - mutant_log != null
+MutantsViewerPanel.showMutant (with mutant_log)
+MutantsViewerPanel.getMutatedLineNum --- start_index =5 : end_index =8
+MutantsViewerPanel.getMutatedContent --- start_index =5 : end_index =8
+showMutant: myFile =/home/cesar/workspace_testes/Aula5EightPuzzleGame/mujava/result/domain.Cell/class_mutants/JTI_1/Cell.java
+MutantsViewerPanel.mList_mouseClicked - mutant_log != null
+MutantsViewerPanel.showMutant (with mutant_log)
+MutantsViewerPanel.getMutatedLineNum --- start_index =5 : end_index =8
+MutantsViewerPanel.getMutatedContent --- start_index =5 : end_index =8
+showMutant: myFile =/home/cesar/workspace_testes/Aula5EightPuzzleGame/mujava/result/domain.Cell/class_mutants/JTI_1/Cell.java
