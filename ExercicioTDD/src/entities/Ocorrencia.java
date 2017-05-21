@@ -1,3 +1,4 @@
+package entities;
 
 public class Ocorrencia {
 	
@@ -16,32 +17,28 @@ public class Ocorrencia {
 	}
 
 	public String getNome() {
-		// TODO Auto-generated method stub
 		return nome;
 	}
 
 	public boolean estaAberta() {
-		// TODO Auto-generated method stub
 		return estaAberta;
 	}
 
 	public TipoOcorrencia getTipo() {
-		// TODO Auto-generated method stub
 		return tipo;
 	}
 
 	public Prioridade getPrioridade() {
-		// TODO Auto-generated method stub
 		return prioridade;
 	}
 
 	public Funcionario getResponsavel() {
-		// TODO Auto-generated method stub
 		return responsavel;
 	}
 
 	public void concluirOcorrencia() {
 		estaAberta = false;		
+		responsavel.removerOcorrencia(this);
 	}
 
 }

@@ -1,5 +1,8 @@
+package entities;
 import java.util.ArrayList;
 import java.util.List;
+
+import exceptions.FuncionarioComExcessoDeOcorrencias;
 
 
 public class Funcionario {
@@ -14,8 +17,11 @@ public class Funcionario {
 	}
 
 	public String getNome() {
-		// TODO Auto-generated method stub
 		return this.nome;
+	}
+	
+	public boolean funcionarioEstaAtendendoOcorrencia(Ocorrencia oc){
+		return ocorrencias.contains(oc);
 	}
 	
 	public void adicionarOcorrencia(Ocorrencia oc) throws FuncionarioComExcessoDeOcorrencias{
@@ -24,9 +30,14 @@ public class Funcionario {
 			ocorrencias.add(oc);
 		}
 		else{
-			throw new FuncionarioComExcessoDeOcorrencias("Funcionário excedeu número máximo de ocorrências atendidas: " + NUM_MAX_OCORRENCIAS);
+			String msg = "Funcionário excedeu número máximo de ocorrências atendidas: " + NUM_MAX_OCORRENCIAS;
+			throw new FuncionarioComExcessoDeOcorrencias(msg);
 		}
 		
+	}
+	
+	public void removerOcorrencia(Ocorrencia oc){
+		ocorrencias.remove(oc);
 	}
 
 }

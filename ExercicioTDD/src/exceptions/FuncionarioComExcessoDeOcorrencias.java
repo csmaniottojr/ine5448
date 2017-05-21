@@ -1,3 +1,4 @@
+package exceptions;
 
 @SuppressWarnings("serial")
 public class FuncionarioComExcessoDeOcorrencias extends Exception {
