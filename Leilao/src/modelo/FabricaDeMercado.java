@@ -26,7 +26,10 @@ public class FabricaDeMercado implements Serializable {
 			ObjectInputStream objLeitura = new ObjectInputStream(arquivo);
 			mercado = (MercadoLeilao) objLeitura.readObject();
 			objLeitura.close();
-		} catch (IOException | ClassNotFoundException e) {
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return mercado;
