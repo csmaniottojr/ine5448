@@ -16,14 +16,6 @@ import modelo.MercadoLeilao;
 public class TesteMercadoComProduto {
 	
 	private IMercadoLeilao mercado;
-	private Date dataLimiteProduto;
-	private String cpfLeiloadorProduto;
-	private String nomeProduto;
-	private String descricaoProduto;
-	private Double valorMinimoProduto;
-	private String nomeUsuario;
-	private String enderecoUsuario;
-	private String emailUsuario;
 	
 	@Before
 	public void setup(){
